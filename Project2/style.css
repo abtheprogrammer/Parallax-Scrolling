@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Indie Flower', cursive;
+}
+
+.parallax1 {
+   background-image: url(/img/image1.jpg);
+   filter: grayscale(95%);
+   min-height: 923px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.text1 {
+   background-color: #646464;
+   width: 200px;
+   text-align: center;
+   transform: translate(270%, -1300%);
+}
+
+.text2 {
+   margin-bottom: 7%;
+   margin-left: 2%;
+   margin-right: 2%;
+   text-align: center;
+}
+
+.id {
+   background-color: #646464;
+}
+
+/* ################### parallax2 styling ####################### */
+
+
+.parallax2 {
+   background-image: url(/img/image2.jpg);
+   filter: grayscale(95%);
+   min-height: 400px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.text3 {
+   background-color: #282e34;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   padding-left: 2%;
+}
+
+/* ###################### parallax4 styling ######################### */
+
+
+.parallax3 {
+   background-image: url(/img/image3.jpg);
+   filter: grayscale(95%);
+   min-height: 700px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.text4 {
+   background-color: #282e34;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   padding-left: 2%;
+}
+
+/* $$$$$ parallax4 styling $$$$$$ */
+
+.parallax4 {
+   background-image: url(/img/image4.jpg);
+   filter: grayscale(95%);
+   min-height: 923px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: -15%;
+}
+
+.text5 {
+   background-color: #646464;
+   width: 200px;
+   text-align: center;
+   transform: translate(270%, -700%);
+}
